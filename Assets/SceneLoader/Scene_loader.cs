@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.ResourceManagement.ResourceProviders;
+using UnityEngine.AddressableAssets.ResourceLocators;
 public class Scene_loader : MonoBehaviour
 {
     public Animator transition;
@@ -16,6 +19,7 @@ public class Scene_loader : MonoBehaviour
     public Button sceneSix;
     public Button nextScene;
     public Button previousScene;
+    
 
     // Update is called once per frame
 
@@ -29,6 +33,7 @@ public class Scene_loader : MonoBehaviour
         sceneSix.onClick.AddListener(LoadNextSceneSix);
         nextScene.onClick.AddListener(LoadNextScene);
         previousScene.onClick.AddListener(LoadPreviousScene);
+
     }
 
     public void LoadNextSceneOne()
@@ -53,7 +58,7 @@ public class Scene_loader : MonoBehaviour
     public void LoadNextSceneFour()
     {
 
-
+        
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 4));
     }
     public void LoadNextSceneFive()
@@ -93,4 +98,8 @@ public class Scene_loader : MonoBehaviour
         SceneManager.LoadScene(levelIndex);
 
     }
-}
+
+   
+
+   }
+    
