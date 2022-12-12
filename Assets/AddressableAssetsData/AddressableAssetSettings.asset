@@ -17,7 +17,7 @@ MonoBehaviour:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -34,9 +34,9 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 730d168534be2ae47b4d4b9aaa7d3ae2
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: bee08211b490ff347834c7c2962e7934
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
@@ -63,7 +63,7 @@ MonoBehaviour:
       - m_Id: 730d168534be2ae47b4d4b9aaa7d3ae2
         m_Value: ServerData/[BuildTarget]
       - m_Id: bee08211b490ff347834c7c2962e7934
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://drive.google.com/drive/folders/19b4jwJ_c8auh-fNJD6ZbhEK80-TG8v6H?usp=sharing:[HostingServicePort]
     m_ProfileEntryNames:
     - m_Id: 222a99a509d5af84a9ba65c6adb4fef0
       m_Name: BuildTarget
