@@ -547,7 +547,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221674946}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1119912970}
+        m_TargetAssemblyTypeName: Scene_loader, Assembly-CSharp
+        m_MethodName: LoadPreviousScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221674946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,6 +733,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375990506}
   m_CullTransparentMesh: 1
+--- !u!1001 &512214632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613772, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247927864231613778, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+        type: 3}
+      propertyPath: m_Name
+      value: Addressables Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9bf9f642b6bc56148bd0518d637e2f42, type: 3}
+--- !u!114 &512214633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8247927864231613779, guid: 9bf9f642b6bc56148bd0518d637e2f42,
+    type: 3}
+  m_PrefabInstance: {fileID: 512214632}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088122adb54d7d54aae28e82ac0d4fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1035816064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2652259857294690099, guid: 991f7faf3818ce24d854dd90bfceb80b,
@@ -897,6 +990,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 896fa305d0f62ab4c96b274f579a9a97, type: 3}
+--- !u!114 &1119912970 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6167356389115037266, guid: 896fa305d0f62ab4c96b274f579a9a97,
+    type: 3}
+  m_PrefabInstance: {fileID: 1119912969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020eb8b58b807e24b8ceda1df19f2eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1221370630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,7 +1427,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1466017251}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 512214633}
+        m_TargetAssemblyTypeName: AddressablesManager, Assembly-CSharp
+        m_MethodName: LoadAddressablesLevel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Assets/Scenes/scene four.unity
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1466017251
 MonoBehaviour:
   m_ObjectHideFlags: 0
