@@ -11,28 +11,28 @@ public class Scene_loader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
-    public Button sceneOne;
-    public Button sceneTwo;
-    public Button sceneThree;
-    public Button sceneFour;
-    public Button sceneFive;
-    public Button sceneSix;
-    public Button nextScene;
-    public Button previousScene;
+    //public Button sceneOne;
+   // public Button sceneTwo;
+   // public Button sceneThree;
+  //  public Button sceneFour;
+   // public Button sceneFive;
+   // public Button sceneSix;
+   // public Button nextScene;
+   // public Button previousScene;
     
 
     // Update is called once per frame
 
     void start()
     {
-        sceneOne.onClick.AddListener(LoadNextSceneOne);
-        sceneTwo.onClick.AddListener(LoadNextSceneTwo);
-        sceneThree.onClick.AddListener(LoadNextSceneThree);
-        sceneFour.onClick.AddListener(LoadNextSceneFour);
-        sceneFive.onClick.AddListener(LoadNextSceneFive); 
-        sceneSix.onClick.AddListener(LoadNextSceneSix);
-        nextScene.onClick.AddListener(LoadNextScene);
-        previousScene.onClick.AddListener(LoadPreviousScene);
+        //sceneOne.onClick.AddListener(LoadNextSceneOne);
+       // sceneTwo.onClick.AddListener(LoadNextSceneTwo);
+       // sceneThree.onClick.AddListener(LoadNextSceneThree);
+      //  sceneFour.onClick.AddListener(LoadNextSceneFour);
+      //  sceneFive.onClick.AddListener(LoadNextSceneFive); 
+      //  sceneSix.onClick.AddListener(LoadNextSceneSix);
+     ///  nextScene.onClick.AddListener(LoadNextScene);
+       // previousScene.onClick.AddListener(LoadPreviousScene);
 
     }
 
