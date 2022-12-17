@@ -257,10 +257,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 7665762485387993917}
-  transitionTime: 1
-  sceneOne: {fileID: 0}
-  sceneTwo: {fileID: 0}
-  sceneThree: {fileID: 0}
-  sceneFour: {fileID: 0}
-  sceneFive: {fileID: 0}
-  sceneSix: {fileID: 0}
+  transitionTime: 2

@@ -36,37 +36,111 @@ public class Scene_loader : MonoBehaviour
 
     }
 
-    public void LoadNextSceneOne()
+    public void LoadVrBasics()
     {
         
       
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
-    public void LoadNextSceneTwo()
+    public void LoadVrLocomotion()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void LoadVrLocomotionBack()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 2));
+    }
+    public void LoadAreaLocomotion()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void LoadPointLocomotion()
+    {
+
+        
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void LoadPointLocomotionFromMenu()
     {
 
 
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 2));
     }
-    public void LoadNextSceneThree()
+    public void LoadGrabbableObjects()
     {
 
 
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 3));
-    }
-    public void LoadNextSceneFour()
-    {
-
-        
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 4));
     }
-    public void LoadNextSceneFive()
+    public void LoadGrabbableObjectsBack()
     {
 
 
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 5));
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 2));
     }
+    public void LoadDistanceGrab()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void LoadDirectGrab()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void LoadDirectGrabFromMenu()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 2));
+    }
+
+    public void LoadVrBasicsFromGrabbableObjects()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 4));
+    }
+
+
+    public void LoadSockets()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 7));
+    }
+
+    public void LoadVrBasicsFromSockets()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 7));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void LoadNextSceneSix()
     {
 

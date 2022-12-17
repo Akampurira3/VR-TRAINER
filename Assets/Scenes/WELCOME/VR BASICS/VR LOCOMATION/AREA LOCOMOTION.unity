@@ -688,12 +688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1709645469 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-    type: 3}
-  m_PrefabInstance: {fileID: 7915731751067878779}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1805260991
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,8 +747,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1709645469}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -798,11 +791,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2131799548}
     m_Modifications:
+    - target: {fileID: 76816364425555338, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_text
+      value: "POINT \nLOCOMOTION"
+      objectReference: {fileID: 0}
     - target: {fileID: 76816364467027132, guid: 1b9d1d2013211514eaa61d6b5cc74173,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1119912970}
+    - target: {fileID: 76816364467027138, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_Name
+      value: VR LOCOMOTION
+      objectReference: {fileID: 0}
     - target: {fileID: 76816364582438108, guid: 1b9d1d2013211514eaa61d6b5cc74173,
         type: 3}
       propertyPath: m_Pivot.x
@@ -918,11 +921,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: scene control page canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 76816364582438112, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 76816365434545309, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_Name
+      value: POINT LOCOMOTION
+      objectReference: {fileID: 0}
     - target: {fileID: 76816365434545311, guid: 1b9d1d2013211514eaa61d6b5cc74173,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1119912970}
+    - target: {fileID: 76816365434545311, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadPointLocomotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 76816365852773421, guid: 1b9d1d2013211514eaa61d6b5cc74173,
+        type: 3}
+      propertyPath: m_text
+      value: "VR \nLOCOMOTION"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b9d1d2013211514eaa61d6b5cc74173, type: 3}
 --- !u!114 &2602340759623427219
@@ -3660,72 +3683,3 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &7915731751067878779
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1839166615}
-    m_Modifications:
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.674
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.398
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.038
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992038, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915731752587992044, guid: 63a0577b89ee19949901566984c7ea3c,
-        type: 3}
-      propertyPath: m_Name
-      value: Sphere
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 63a0577b89ee19949901566984c7ea3c, type: 3}

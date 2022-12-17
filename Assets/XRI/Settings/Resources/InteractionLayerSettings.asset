@@ -15,11 +15,11 @@ MonoBehaviour:
   m_LayerNames:
   - Default
   - Raycasts
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hats
+  - Boxes
+  - red box
+  - blue box
+  - yellow box
   - 
   - 
   - 
