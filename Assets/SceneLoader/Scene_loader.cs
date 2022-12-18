@@ -144,14 +144,14 @@ public class Scene_loader : MonoBehaviour
     {
 
 
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 2));
     }
 
-    public void EventsAndInteractionsFromLoadPaintingScene()
+    public void LoadEventsAndInteractionsFromLoadPaintingScene()
     {
 
 
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 1));
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 2));
     }
 
     public void LoadChallangeArchitectureReview()
@@ -168,16 +168,65 @@ public class Scene_loader : MonoBehaviour
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 9));
     }
 
+    public void LoadErgonomicOptimization()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 12));
+    }
+    public void LoadWelcomeFromErgonomicOptimization()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 12));
+    }
+
+    public void LoadOptimization()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    public void LoadLowFPS()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+    public void HighLowFPS()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 2));
+    }
+    public void LoadLighting()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 4));
+    }
+
+    public void EOFromLoadLighting()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 4));
+    }
+
+    public void LoadTrainingSim()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 5));
+    }
+
+    public void LoadEOFromTrainingSim()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 5));
+    }
 
 
 

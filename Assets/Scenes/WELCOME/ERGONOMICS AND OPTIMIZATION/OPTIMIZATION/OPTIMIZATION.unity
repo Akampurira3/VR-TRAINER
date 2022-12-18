@@ -382,7 +382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "HIGH FRAME \nPER SECOND"
+  m_text: "HIGH FRAME \nPER SECOND\n(FPS)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -545,7 +545,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7665762486305528053}
         m_TargetAssemblyTypeName: Scene_loader, Assembly-CSharp
-        m_MethodName: LoadGrabbableObjects
+        m_MethodName: LoadLowFPS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1154,7 +1154,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7665762486305528053}
         m_TargetAssemblyTypeName: Scene_loader, Assembly-CSharp
-        m_MethodName: LoadSockets
+        m_MethodName: HighLowFPS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "LOW FRAME \nPER SECOND"
+  m_text: "LOW FRAME \nPER SECOND \n(FPS)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}

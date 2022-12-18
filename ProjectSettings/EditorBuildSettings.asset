@@ -38,6 +38,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Challenges/01_Architecture/Scenes/Architecture_Prototype_Fixed_Use.unity
     guid: bc524a724eab58d479d527b49a93632f
+  - enabled: 1
+    path: Assets/Challenges/02_3DPainting/Scenes/3DPainting_Prototype_Fixed_USE.unity
+    guid: 98ae0c146834dac4ca8a9020140ce07e
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/ERGONOMICS AND OPTIMIZATION.unity
+    guid: 2d5b6ba2a1710b9408ddcdf79fc580e4
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/OPTIMIZATION/OPTIMIZATION.unity
+    guid: 4ff92d2d2b5a675438daa6c59aff6e82
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/OPTIMIZATION/LOW FPS.unity
+    guid: 1523114f2e297bd41929ae44cd6347fb
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/OPTIMIZATION/HIGH FPS.unity
+    guid: b53f534fd086c70458a41d4804cef2fc
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/LIGHTING/LIGHTING/LIGHTING.unity
+    guid: d635f7e243cb24a418a5b2dae0c70168
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/ERGONOMICS AND OPTIMIZATION/TRAINING SIMULATION/TRAINING
+      SIMULATION.unity
+    guid: 7c48abe29a155a649bc410d3864673bf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}

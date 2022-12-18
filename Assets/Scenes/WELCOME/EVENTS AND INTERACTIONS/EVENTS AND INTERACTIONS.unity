@@ -1019,7 +1019,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7665762486305528053}
         m_TargetAssemblyTypeName: Scene_loader, Assembly-CSharp
-        m_MethodName: LoadSockets
+        m_MethodName: LoadPaintingScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

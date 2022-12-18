@@ -227,7 +227,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7665762486305528053}
         m_TargetAssemblyTypeName: Scene_loader, Assembly-CSharp
-        m_MethodName: LoadPreviousScene
+        m_MethodName: LoadWelcomeFromErgonomicOptimization
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4387,7 +4387,7 @@ PrefabInstance:
     - target: {fileID: 9080932361272762898, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadVrLocomotion
+      value: LoadTrainingSim
       objectReference: {fileID: 0}
     - target: {fileID: 9080932361272762899, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
@@ -4417,7 +4417,7 @@ PrefabInstance:
     - target: {fileID: 9080932361517156961, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadSockets
+      value: LoadLighting
       objectReference: {fileID: 0}
     - target: {fileID: 9080932361517156962, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
@@ -4579,7 +4579,7 @@ PrefabInstance:
     - target: {fileID: 9080932362493334082, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadGrabbableObjects
+      value: LoadOptimization
       objectReference: {fileID: 0}
     - target: {fileID: 9080932362493334083, guid: 7ca85ddd960397d4a86a64e5c79cebbd,
         type: 3}
