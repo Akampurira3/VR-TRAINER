@@ -126,6 +126,41 @@ public class Scene_loader : MonoBehaviour
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 7));
     }
 
+    public void LoadEventsAndInteractions()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 9));
+    }
+
+    public void LoadWelcomeSceneFromEventsAndInteractions()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex  - 9));
+    }
+
+    public void LoadPaintingScene()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    public void EventsAndInteractionsFromLoadPaintingScene()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 1));
+    }
+
+
+
+
+
+
+
+
 
 
 

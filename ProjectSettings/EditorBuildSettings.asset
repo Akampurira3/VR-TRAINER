@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WELCOME/VR BASICS/SOCKETS/SOCKET SYSTEM.unity
     guid: eb422755f8807674981f8f4c00a1dd5f
+  - enabled: 1
+    path: Assets/Scenes/WELCOME/EVENTS AND INTERACTIONS/EVENTS AND INTERACTIONS.unity
+    guid: 6ff610daa30599b489e00ad80d12f2dc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
