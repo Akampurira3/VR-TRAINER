@@ -154,8 +154,19 @@ public class Scene_loader : MonoBehaviour
         StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 1));
     }
 
+    public void LoadChallangeArchitectureReview()
+    {
 
 
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 9));
+    }
+
+    public void LoadVRbasicsFromChallangeArchitectureReview()
+    {
+
+
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex - 9));
+    }
 
 
 
